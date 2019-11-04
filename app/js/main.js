@@ -22,13 +22,13 @@ $(document).ready(function () {
   });
 
   const logoAnime = anime({
-    targets: '.logo__vector',
+    targets: '.logo__vector path',
     strokeDashoffset: [anime.setDashoffset, 0],
     easing: 'easeInOutSine',
     duration: 1500,
     delay: function(el, i) { return i * 500 },
     direction: 'alternate',
-    loop: true
+    loop: false
   })
 
   let isWorkAnimePlayed = false;

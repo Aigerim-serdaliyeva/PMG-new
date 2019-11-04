@@ -143,15 +143,6 @@
     }    
 }
 
-@keyframes dash-right {
-  from {
-    stroke-dasharray: 10 10;
-  }
-  to {
-    stroke-dasharray: 10 10;
-    stroke-dashoffset: -100;
-  }
-}
 
 .footer {
   background-color: $accent;
