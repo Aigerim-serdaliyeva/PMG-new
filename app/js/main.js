@@ -21,6 +21,15 @@ $(document).ready(function () {
     $(this).closest(".header").removeClass('active');
   });
 
+  const logoAnime = anime({
+    targets: '.logo__vector',
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: 'easeInOutSine',
+    duration: 1500,
+    delay: function(el, i) { return i * 500 },
+    direction: 'alternate',
+    loop: true
+  })
 
   let isWorkAnimePlayed = false;
 
@@ -109,7 +118,7 @@ $(document).ready(function () {
       $('.header__mobile').removeClass('scroll');
     }
 
-    if ($wnd.scrollTop() > $('.s-work').offset().top && !isWorkAnimePlayed && $wnd.width() > 991) {
+    if ($wnd.scrollTop() > $('.s-about').offset().top && !isWorkAnimePlayed && $wnd.width() > 991) {
       workAnime.play();
       isWorkAnimePlayed = true;  
     } 

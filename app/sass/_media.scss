@@ -13,6 +13,7 @@
   .s {
     &-main {
       padding-top: 350px;
+      margin-bottom: 320px;
     }
 
     &-company {
@@ -20,7 +21,7 @@
     }
 
     &-about {
-      padding: 320px 0 100px;
+      padding: 0px 0 100px;
     }
 
     &-project {
@@ -46,6 +47,7 @@
   .s {
     &-main {
       padding: 300px 0 0;
+      margin-bottom: 280px;
     }
 
     &-company {
@@ -87,7 +89,7 @@
     }
 
     &-about {
-      padding: 280px 0 80px;
+      padding: 0px 0 80px;
 
       .about {
         &__title {
@@ -283,6 +285,7 @@
       background-color: $accent;
       background-image: none;
       padding: 230px 0px 0;
+      margin-bottom: 0;
       .logo {
         padding: 0 28px;
       }

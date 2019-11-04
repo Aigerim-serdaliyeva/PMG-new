@@ -7,6 +7,13 @@
 
 @font-face {
   font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Roboto/Light/Roboto-Light.eot");
+  src: url("../fonts/Roboto/Light/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Light/Roboto-Light.woff") format("woff"), url("../fonts/Roboto/Light/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto/Light/Roboto-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/Roboto/Medium/Roboto-Medium.eot");
@@ -6360,6 +6367,11 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   width: 100%;
   z-index: 98; }
+  .header--block {
+    position: relative;
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+            transform: translateY(0); }
   .header--scrolled {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
@@ -6482,7 +6494,24 @@ h1, h2, h3, h4, h5, h6 {
 .s-main {
   background-image: url("../img/main-back.jpg");
   background-position: center right;
-  padding: 400px 0 0px; }
+  padding: 400px 0 0px;
+  margin-bottom: 400px; }
+  .s-main .logo {
+    position: relative;
+    max-width: 478px;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .s-main .logo__vector {
+      position: absolute;
+      width: auto;
+      left: -12%; }
 
 .s-company {
   margin: 260px 0 -230px 0; }
@@ -6499,8 +6528,9 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     margin-bottom: 23px; }
   .s-company__text {
-    max-width: 1125px;
-    font-weight: normal;
+    max-width: 950px;
+    font-weight: 300;
+    text-align: justify;
     font-size: 18px;
     line-height: 1.4;
     width: 100%;
@@ -6526,19 +6556,19 @@ h1, h2, h3, h4, h5, h6 {
       width: 100%; }
     .s-company .company__img {
       text-align: center;
-      margin-bottom: 30px; }
+      margin-bottom: 20px; }
     .s-company .company__title {
       font-weight: bold;
-      font-size: 18px;
+      font-size: 17px;
       text-transform: uppercase;
       text-align: center;
-      margin-bottom: 27px; }
+      margin-bottom: 20px; }
     .s-company .company__text {
       text-align: justify;
-      line-height: 1.3; }
+      line-height: 1.2; }
 
 .s-about {
-  padding: 400px 0 130px;
+  padding: 0px 0 130px;
   position: relative; }
   .s-about .about {
     text-align: center;
@@ -6681,14 +6711,18 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
   border-radius: 10px;
   margin-bottom: 20px;
-  padding: 45px 45px 25px; }
+  padding: 33px 45px 33px; }
   .s-project .project:last-child {
     margin-bottom: 0; }
   .s-project .project__img {
     text-align: center; }
   .s-project .project__text {
-    margin-bottom: 10px;
-    line-height: 1.3; }
+    font-weight: normal;
+    font-size: 13px;
+    text-align: justify;
+    margin: 0; }
+    .s-project .project__text span {
+      font-weight: bold; }
   .s-project .project a {
     font-weight: bold; }
   .s-project .project .more {
@@ -6758,6 +6792,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../fonts/Roboto/Light/Roboto-Light.eot");
+  src: url("../fonts/Roboto/Light/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/Light/Roboto-Light.woff") format("woff"), url("../fonts/Roboto/Light/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto/Light/Roboto-Light.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Roboto";
   font-weight: 500;
   font-style: normal;
   src: url("../fonts/Roboto/Medium/Roboto-Medium.eot");
@@ -6775,11 +6816,12 @@ h1, h2, h3, h4, h5, h6 {
   .section-title {
     margin-bottom: 60px; }
   .s-main {
-    padding-top: 350px; }
+    padding-top: 350px;
+    margin-bottom: 320px; }
   .s-company {
     margin: 220px 0 -160px 0; }
   .s-about {
-    padding: 320px 0 100px; }
+    padding: 0px 0 100px; }
   .s-project__content {
     padding: 80px 0; } }
 
@@ -6791,7 +6833,8 @@ h1, h2, h3, h4, h5, h6 {
     .section__title {
       padding: 50px; }
   .s-main {
-    padding: 300px 0 0; }
+    padding: 300px 0 0;
+    margin-bottom: 280px; }
   .s-company {
     margin: 300px 0 -200px 0; }
     .s-company__header {
@@ -6811,7 +6854,7 @@ h1, h2, h3, h4, h5, h6 {
       margin-bottom: 5px;
       line-height: 1.2; }
   .s-about {
-    padding: 280px 0 80px; }
+    padding: 0px 0 80px; }
     .s-about .about__title {
       margin: 30px 0 20px; }
     .s-about .about__text {
@@ -6937,7 +6980,8 @@ h1, h2, h3, h4, h5, h6 {
     background: linear-gradient(85.05deg, #004531 29.19%, #0F694F 115.17%);
     background-color: #004C36;
     background-image: none;
-    padding: 230px 0px 0; }
+    padding: 230px 0px 0;
+    margin-bottom: 0; }
     .s-main .logo {
       padding: 0 28px; }
   .s-company {
