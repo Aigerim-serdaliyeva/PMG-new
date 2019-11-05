@@ -289,6 +289,17 @@
       margin-bottom: 0;
       .logo {
         padding: 0 28px;
+        max-width: 250px;
+        right: 0;
+        &__vector {
+          &--desktop {
+            display: none;
+          }
+          &--mobile {
+            display: block;
+            left: -10%;
+          }
+        }
       }
     } 
 

@@ -50,10 +50,8 @@
 .header {
   position: fixed;
   transition: 0.4s transform ease-in;
-  // background: #004C36;
   background: linear-gradient(11.31deg, #004531 29.19%, #0F694F 115.17%);
   transform: translateY(-100%);
-  // top: -61px;
   text-align: center;
   width: 100%;
   z-index: 98;
@@ -210,10 +208,14 @@
       width: 100%;
       display: flex;
       align-items: center;
+      right: -3%;
       &__vector {
         position: absolute;
         width: auto;
         left: -12%;
+        &--mobile {
+          display: none;
+        }
       }
     }
   }
