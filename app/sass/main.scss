@@ -9,6 +9,14 @@
   flex-direction: column;
 }
 
+@keyframes dash-right {
+  from {
+    stroke-dasharray: 10 10; }
+  to {
+    stroke-dasharray: 10 10;
+    stroke-dashoffset: -100; } 
+}
+
 .burger-menu {
   &__btn {
     position: absolute;

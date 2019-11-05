@@ -6316,6 +6316,20 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-direction: column;
           flex-direction: column; }
 
+@-webkit-keyframes dash-right {
+  from {
+    stroke-dasharray: 10 10; }
+  to {
+    stroke-dasharray: 10 10;
+    stroke-dashoffset: -100; } }
+
+@keyframes dash-right {
+  from {
+    stroke-dasharray: 10 10; }
+  to {
+    stroke-dasharray: 10 10;
+    stroke-dashoffset: -100; } }
+
 .burger-menu__btn {
   position: absolute;
   left: 0;
