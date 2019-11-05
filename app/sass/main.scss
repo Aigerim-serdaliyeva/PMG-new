@@ -205,10 +205,12 @@
 
 .s {
   &-main {
-    background-image: url('../img/main-back.jpg');
+    background-image: url('../img/main-back.svg');
     background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 400px 0 0px;
-    margin-bottom: 400px;
+    margin-bottom: 400px;    
 
     .logo {
       position: relative;
@@ -217,6 +219,7 @@
       display: flex;
       align-items: center;
       right: -3%;
+      padding: 0 0 200px;
       &__vector {
         position: absolute;
         width: auto;

@@ -69,6 +69,7 @@ gulp.task('libs-js', function () {
    'node_modules/owl.carousel/dist/owl.carousel.min.js',
    'node_modules/jquery.maskedinput/src/jquery.maskedinput.js',
    'node_modules/animejs/lib/anime.min.js',
+   'node_modules/wow.js/dist/wow.min.js',
    'node_modules/vue/dist/vue.js',
    'node_modules/vue/dist/vue.min.js',
    'node_modules/vue-i18n/dist/vue-i18n.min.js'
