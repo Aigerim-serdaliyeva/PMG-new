@@ -56,6 +56,7 @@ const messages = {
       texttwo2: "Юристы Muratov Partners всегда в курсе последних событий и изменений в законодательстве, что позволяет грамотно и эффективно предоставлять помощь клиентам. Специалисты компании всегда готовы в краткие сроки оказать услуги по проверке чистоты заключаемых сделок, подготовке документов, составлению договоров и заявлений, обеспечивая полноценную защиту бизнеса клиента от возможных рисков.",
       texttwo3: "Одно из главных направлений Muratov Partners – аутстаффинг персонала «Проектный юрист». Данная услуга является альтернативой штатному юристу на более выгодных и эффективных для клиента условиях. ",
       texttwo4: "В случае штатного юриста клиент платит не только заработную плату, но и все сопутствующие налоги. Затраты на услугу аутстаффинга, в свою очередь, не облагаются налогом, и клиент оплачивает только стоимость фактической работы «Проектного юриста». Воспользовавшись услугой «Проектный юрист», клиент получает постоянную квалифицированную юридическую поддержку бизнеса без перерывов на отпуск, декретов и больничных.",
+      more: "Подробнее..."
     },
     contact: {
       title: "Контакты",
@@ -167,6 +168,7 @@ const messages = {
       texttwo2: "Lawyers of Muratov Partners are always aware of the latest events and changes in legislation that allows providing competent and effective assistance to clients. Specialists of the company are always ready to provide services in a short time for checking the compliance of concluded transactions, preparation of documents, drafting of contracts and applications, providing full protection of the client’s business from possible risks.",
       texttwo3: "One of the main directions of Muratov Partners is outstaffing of Project Lawyer personnel. This service is an alternative to a full-time lawyer on better and more efficient terms for the client. ",
       texttwo4: "In case of a full-time lawyer, the client pays not only salary, but also all related taxes. The costs of the outstaffing service, in turn, are not taxable, and the client pays only the cost of the actual work of the Project Lawyer. Employing the Project Lawyer service, the client receives permanent qualified legal support of the business without stoppage for vacation, maternity leave and sick time.",
+      more: "More details..."
     },
     contact: {
       title: "contacts",
@@ -278,6 +280,7 @@ const messages = {
       texttwo2: "Muratov Partners заңгерлері әрдайым соңғы оқиғалар мен заңдардағы өзгерістерді біліп отырады, бұл клиенттерге сауатты және тиімді көмек көрсетуге мүмкіндік береді. Компания мамандары әрдайым қысқа мерзім ішінде жасалатын мәмілелердің тазалығын тексеру, құжаттарды дайындау, шарттар мен өтініштер жасау бойынша қызмет көрсетуге дайын. ",
       texttwo3: "Muratov Partners басты бағыттарының бірі - «Жобалық заңгер» қызметкерлердің аутстаффингі. Бұл қызмет клиент үшін тиімді және қолайлы шарттарда штаттық заңгердің баламасы болып табылады. ",
       texttwo4: "Штаттағы заңгер жағдайында клиент тек жалақы ғана емес, сонымен қатар барлық ілеспе салықтарды да төлейді. Аутстаффинг қызметіне арналған шығындарға, өз кезегінде, салық салынбайды және клиент  «Жобалық заңгердің» нақты жұмысының құнын ғана төлейді. «Жобалық заңгер» қызметін пайдалана отырып, клиент демалысқа, декреттерге және ауруханаларға үзіліссіз кәсіпкерлікке тұрақты білікті заң көмегін алады.",
+      more: "толығырақ"
     },
     contact: {
       title: "Байланыс мәліметтері",
