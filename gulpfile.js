@@ -39,7 +39,7 @@ gulp.task('libs-css', function () {
   return gulp.src([
     'node_modules/remodal/dist/remodal.css',
     'node_modules/remodal/dist/remodal-default-theme.css',
-    'node_modules/animate.css/animate.min.css',
+    // 'node_modules/animate.css/animate.min.css',
     'node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
     'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css',
     'node_modules/hamburgers/dist/hamburgers.min.css',

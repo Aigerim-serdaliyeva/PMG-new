@@ -98,6 +98,10 @@ $(document).ready(function () {
   //   utms = JSON.parse(window.sessionStorage.getItem('utms') || "[]");
   // }
 
+  
+  // Инициализируем анимацию (для мобильных отключен)
+  new WOW({ mobile: false }).init();
+
   // jquery.maskedinput для ПК и планшет (мобильном не подключаем)
   if ($wnd.width() > 479) {
     $("input[type=tel]").mask("+7 (999) 999 99 99", {
